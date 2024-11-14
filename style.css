@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/695657/pexels-photo-695657.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+    color: black;
+    font-size: 1.2em;
+}
+
+input[type="text"] { 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    background: rgba(255, 255, 255, 0.8); 
+    color: black;
+}
+
+.button { 
+    margin-top: 20px; 
+    background: #4CAF50; 
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 1.2em; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    align-self: center;
+}
+
+.button:hover {
+    background: #45a049;
+}
+
+.info {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    max-width: 400px;
+    margin-top: 40px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+.info-data {
+    font-size: 1.2em; 
+    margin: 10px 0; 
+    color: black;
+}
